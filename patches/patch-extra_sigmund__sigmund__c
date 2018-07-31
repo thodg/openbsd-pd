@@ -1,0 +1,13 @@
+diff --git a/extra/sigmund~/sigmund~.c b/extra/sigmund~/sigmund~.c
+index c1e3d71..aea25c8 100644
+--- extra/sigmund~/sigmund~.c.orig
++++ extra/sigmund~/sigmund~.c
+@@ -41,7 +41,7 @@ for example, defines this in the file d_fft_mayer.c or d_fft_fftsg.c. */
+ #include <string.h>
+ #ifdef _WIN32
+ #include <malloc.h>
+-#elif ! defined(_MSC_VER)
++#elif ! defined(_MSC_VER) && HAVE_ALLOCA_H
+ #include <alloca.h>
+ #endif
+ #include <stdlib.h>

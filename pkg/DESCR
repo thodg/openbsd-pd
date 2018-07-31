@@ -1,0 +1,5 @@
+Pd is a real-time software system for live musical and multimedia
+performances. It is in active development by Miller Puckette, and
+perhaps others. The system is unfinished, but quite usable for
+sophisticated projects. It has been ported to GNU/Linux, MacOS X,
+IRIX, BSD, and many flavors of Windows.

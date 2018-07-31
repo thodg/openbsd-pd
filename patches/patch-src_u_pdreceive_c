@@ -1,0 +1,12 @@
+diff --git a/src/u_pdreceive.c b/src/u_pdreceive.c
+index 1b9431d..25f045c 100644
+--- src/u_pdreceive.c.orig
++++ src/u_pdreceive.c
+@@ -25,6 +25,7 @@ standard output. */
+ #include <netdb.h>
+ #include <stdio.h>
+ #include <unistd.h>
++#include <sys/select.h>
+ #define SOCKET_ERROR -1
+ #endif
+ 
